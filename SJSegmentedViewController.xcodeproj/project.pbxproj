@@ -10,6 +10,13 @@
 		13A0D25E1F13DD5500C2B40D /* SJSegmentedViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A0D2541F13DD5500C2B40D /* SJSegmentedViewController.framework */; };
 		13A0D2631F13DD5500C2B40D /* SJSegmentedViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A0D2621F13DD5500C2B40D /* SJSegmentedViewControllerTests.swift */; };
 		13A0D2651F13DD5500C2B40D /* SJSegmentedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 13A0D2571F13DD5500C2B40D /* SJSegmentedViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13A0D2751F13DD7A00C2B40D /* SJContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A0D26E1F13DD7A00C2B40D /* SJContentView.swift */; };
+		13A0D2761F13DD7A00C2B40D /* SJSegmentedScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A0D26F1F13DD7A00C2B40D /* SJSegmentedScrollView.swift */; };
+		13A0D2771F13DD7A00C2B40D /* SJSegmentedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A0D2701F13DD7A00C2B40D /* SJSegmentedViewController.swift */; };
+		13A0D2781F13DD7A00C2B40D /* SJSegmentTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A0D2711F13DD7A00C2B40D /* SJSegmentTab.swift */; };
+		13A0D2791F13DD7A00C2B40D /* SJSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A0D2721F13DD7A00C2B40D /* SJSegmentView.swift */; };
+		13A0D27A1F13DD7A00C2B40D /* SJShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A0D2731F13DD7A00C2B40D /* SJShadow.swift */; };
+		13A0D27B1F13DD7A00C2B40D /* SJUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A0D2741F13DD7A00C2B40D /* SJUtil.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +36,13 @@
 		13A0D25D1F13DD5500C2B40D /* SJSegmentedViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SJSegmentedViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		13A0D2621F13DD5500C2B40D /* SJSegmentedViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SJSegmentedViewControllerTests.swift; sourceTree = "<group>"; };
 		13A0D2641F13DD5500C2B40D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13A0D26E1F13DD7A00C2B40D /* SJContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJContentView.swift; sourceTree = "<group>"; };
+		13A0D26F1F13DD7A00C2B40D /* SJSegmentedScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJSegmentedScrollView.swift; sourceTree = "<group>"; };
+		13A0D2701F13DD7A00C2B40D /* SJSegmentedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJSegmentedViewController.swift; sourceTree = "<group>"; };
+		13A0D2711F13DD7A00C2B40D /* SJSegmentTab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJSegmentTab.swift; sourceTree = "<group>"; };
+		13A0D2721F13DD7A00C2B40D /* SJSegmentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJSegmentView.swift; sourceTree = "<group>"; };
+		13A0D2731F13DD7A00C2B40D /* SJShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJShadow.swift; sourceTree = "<group>"; };
+		13A0D2741F13DD7A00C2B40D /* SJUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJUtil.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +86,13 @@
 			isa = PBXGroup;
 			children = (
 				13A0D2571F13DD5500C2B40D /* SJSegmentedViewController.h */,
+				13A0D26E1F13DD7A00C2B40D /* SJContentView.swift */,
+				13A0D26F1F13DD7A00C2B40D /* SJSegmentedScrollView.swift */,
+				13A0D2701F13DD7A00C2B40D /* SJSegmentedViewController.swift */,
+				13A0D2711F13DD7A00C2B40D /* SJSegmentTab.swift */,
+				13A0D2721F13DD7A00C2B40D /* SJSegmentView.swift */,
+				13A0D2731F13DD7A00C2B40D /* SJShadow.swift */,
+				13A0D2741F13DD7A00C2B40D /* SJUtil.swift */,
 				13A0D2581F13DD5500C2B40D /* Info.plist */,
 			);
 			path = SJSegmentedViewController;
@@ -149,6 +170,7 @@
 					13A0D2531F13DD5500C2B40D = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = LB55XRZ672;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					13A0D25C1F13DD5500C2B40D = {
@@ -198,6 +220,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13A0D2781F13DD7A00C2B40D /* SJSegmentTab.swift in Sources */,
+				13A0D2751F13DD7A00C2B40D /* SJContentView.swift in Sources */,
+				13A0D27A1F13DD7A00C2B40D /* SJShadow.swift in Sources */,
+				13A0D2771F13DD7A00C2B40D /* SJSegmentedViewController.swift in Sources */,
+				13A0D2791F13DD7A00C2B40D /* SJSegmentView.swift in Sources */,
+				13A0D2761F13DD7A00C2B40D /* SJSegmentedScrollView.swift in Sources */,
+				13A0D27B1F13DD7A00C2B40D /* SJUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +353,7 @@
 		13A0D2691F13DD5500C2B40D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = LB55XRZ672;
@@ -336,6 +366,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.passeri.SJSegmentedViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -343,6 +374,7 @@
 		13A0D26A1F13DD5500C2B40D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = LB55XRZ672;
@@ -362,6 +394,7 @@
 		13A0D26C1F13DD5500C2B40D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = LB55XRZ672;
 				INFOPLIST_FILE = SJSegmentedViewControllerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -374,6 +407,7 @@
 		13A0D26D1F13DD5500C2B40D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = LB55XRZ672;
 				INFOPLIST_FILE = SJSegmentedViewControllerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
